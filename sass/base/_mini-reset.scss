@@ -1,0 +1,10 @@
+a {
+  transition: 0.5s;
+  color: $text-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $title-color;
+    cursor: pointer;
+  }
+}

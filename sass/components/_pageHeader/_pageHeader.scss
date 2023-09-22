@@ -1,0 +1,58 @@
+.pageHeader {
+  background-color: $background-color;
+  padding: 80px 20px;
+  color: $text-color;
+  min-height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+
+  @media only screen and (min-width: 1200px) {
+    padding: 80px 5%;
+  }
+
+  .title {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+
+    h1 {
+      text-transform: capitalize;
+      font-weight: 900;
+      font-size: 40px;
+      color: $title-color;
+    }
+
+    .quote {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
+
+  .skills {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    p {
+      width: 100%;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .skill {
+      width: 70px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+  }
+}
