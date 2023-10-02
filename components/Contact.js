@@ -7,8 +7,8 @@ export default function Contact() {
         <section id="contact" className="contact">
             <div className="container">
                 <div className="text">
-                    <h3>Contact</h3>
-                    <h1>You can email me or call me!</h1>
+                    <h2>Contact</h2>
+                    <h3>You can email me or call me!</h3>
                 </div>
                 <div className="contact-details">
                     <div className="wrapper">

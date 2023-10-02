@@ -14,8 +14,8 @@ export default function About() {
                     />
                 </div>
                 <div className="text">
-                    <h3>About me</h3>
-                    <h1>A dedicated Front-end Developer based Kraljevo, Serbia</h1>
+                    <h2>About me</h2>
+                    <h3>A dedicated Front-end Developer based Kraljevo, Serbia</h3>
                     <p>I have been learning Web Development for over two years with breaks. I am self-taught and everything I know I learned online and with the help of older friends who gave me guidance. I want to devote myself to this work and do it in the future. I am very excited to gain new knowledge and business.</p>
                 </div>
             </div>

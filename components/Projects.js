@@ -11,7 +11,7 @@ export default function Projects() {
         <section id="projects" className="projects">
             <div className="container">
                 <div className="text">
-                    <h3>Projects</h3>
+                    <h2>Projects</h2>
                     <p>I worked on various small and large projects consisting of react, nextjs, craftCms, wordpress. If a project is not live, you can view the code on github</p>
                 </div>
                 {
