@@ -12,7 +12,7 @@ export default function Projects() {
             <div className="container">
                 <div className="text">
                     <h2>Projects</h2>
-                    <p>I worked on various small and large projects consisting of react, nextjs, craftCms, wordpress. If a project is not live, you can view the code on github</p>
+                    <p>I worked on various small and large projects consisting of react, nextjs, craftCms, wordpress, firebase... If a project is not live, you can view the code on github</p>
                 </div>
                 {
                 DATA_PROJECTS.map((portfolio, id)=>(

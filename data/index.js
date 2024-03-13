@@ -51,12 +51,27 @@ export const DATA_SKILLS = [
         skill: 'Git',
         imageSrc: '/git-svgrepo-com.svg'
     },
+    {
+        id: nanoid(),
+        skill: 'Firebase',
+        imageSrc: '/firebase-svgrepo-com.svg'
+    }
 ]
 
 export const DATA_PROJECTS = [
     {
         title: 'React & NextJs Projects',
         projects: [
+            {
+                id: nanoid(),
+                imageSrc: '/rps-dev.msenicic.vercel.app_.png',
+                imageAnimation: false,
+                code: 'https://github.com/msenicic/rps-app-nextjs-firebase',
+                link: 'https://rps-dev.msenicic.vercel.app/',
+                title: 'RPS Online Game (Unfinished)',
+                description: 'Online Rock Paper Scissors game where you can anonymously play with other players without logging in. (Unfinished but the application works)',
+                tags: ['NextJs','SCSS','Firebase']
+            },
             {
                 id: nanoid(),
                 imageSrc: '/food-recipes-dev.msenicic.vercel.app_.png',
