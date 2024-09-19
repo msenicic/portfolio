@@ -78,8 +78,8 @@ export const DATA_PROJECTS = [
                 imageAnimation: true,
                 code: 'https://github.com/msenicic/food-recipes-app-nextjs-headlessCMS',
                 link: 'https://food-recipes-dev.msenicic.vercel.app/',
-                title: 'Food Recipes',
-                description: 'NextJs application with a combination of headless Wordpress where you can log in or register and then make new recipes or view other recipes',
+                title: 'Food Recipes (Unusable)',
+                description: 'NextJs application with a combination of headless Wordpress where you can log in or register and then make new recipes or view other recipes. (Currently unusable because the host has shut down the platform)',
                 tags: ['NextJs','SCSS','Headless CMS','Rest API']
             },
             {
