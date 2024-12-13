@@ -83,7 +83,7 @@ export const DATA_PROJECTS = [
                 code: 'https://github.com/msenicic/rps-app-nextjs-firebase',
                 link: 'https://rps-dev.msenicic.vercel.app/',
                 title: 'RPS Online Game (Unfinished)',
-                description: 'Online Rock Paper Scissors game where you can anonymously play with other players without logging in. (Unfinished but the application works)',
+                description: 'Online Rock Paper Scissors game where you can anonymously play with other players without logging in. (Unfinished but the application works)\n(If you want to try the multiplayer mode yourself, you have to go to another tab via incognito window)',
                 tags: ['NextJs','SCSS','Firebase']
             },
             {
