@@ -12,7 +12,7 @@ export default function Projects() {
             <div className="container">
                 <div className="text">
                     <h2>Projects</h2>
-                    <p>I worked on various small and large projects consisting of react, nextjs, craftCms, wordpress, firebase... If a project is not live, you can view the code on github</p>
+                    <p>I worked on various small and large projects consisting of React, NextJs, CraftCMS, Wordpress... If a project is not live, you can view the code on github</p>
                 </div>
                 {
                 DATA_PROJECTS.map((portfolio, id)=>(
@@ -24,6 +24,7 @@ export default function Projects() {
                             pagination={{ clickable:true }}
                             spaceBetween={30}
                             grabCursor={true}
+                            autoHeight={true}
                         >
                             {portfolio.projects.map((project)=>(
                                 <SwiperSlide key={project.id}>
@@ -48,8 +49,8 @@ export default function Projects() {
                                             }
                                         </div>
                                         <div className="links">
-                                            <Link href={project.code} target='_blank'>Code<FontAwesomeIcon icon={faGithub} size="lg"/></Link>
-                                            {project.link && <Link href={project.link} target='_blank'>Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} size="1x"/></Link>}
+                                            {project.code && <Link href={project.code} target='_blank'>Code<FontAwesomeIcon icon={faGithub} size="lg"/></Link>}
+                                            {project.link && <Link className={project.usableLink == false ? 'disabled' : null} href={project.link} target='_blank'>Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} size="1x"/></Link>}
                                         </div>
                                     </div>
                                 </SwiperSlide>

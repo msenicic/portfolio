@@ -29,7 +29,7 @@ export const DATA_SKILLS = [
     {
         id: nanoid(),
         skill: 'WordPress',
-        imageSrc: '/wordpress-color-svgrepo-com.svg'
+        imageSrc: '/wordpress-svgrepo-com.svg'
     },
     {
         id: nanoid(),
@@ -44,7 +44,7 @@ export const DATA_SKILLS = [
     {
         id: nanoid(),
         skill: 'NextJs',
-        imageSrc: '/nextjs-fill-svgrepo-com.svg'
+        imageSrc: '/nextjs-svgrepo-com.svg'
     },
     {
         id: nanoid(),
@@ -53,18 +53,32 @@ export const DATA_SKILLS = [
     },
     {
         id: nanoid(),
-        skill: 'Firebase',
-        imageSrc: '/firebase-svgrepo-com.svg'
+        skill: 'Figma',
+        imageSrc: '/figma-svgrepo-com.svg'
     }
 ]
 
 export const DATA_PROJECTS = [
     {
+        title: 'I am currently working on...',
+        projects: [
+            {
+                id: nanoid(),
+                imageSrc: '/generator_power.png',
+                imageAnimation: true,
+                link: 'https://tan-pelican-472479.hostingersite.com/',
+                title: 'Generator Power',
+                description: "A project I'm currently working on as a part-time freelance developer",
+                tags: ['Wordpress', 'ACF']
+            },
+        ]
+    },
+    {
         title: 'React & NextJs Projects',
         projects: [
             {
                 id: nanoid(),
-                imageSrc: '/rps-dev.msenicic.vercel.app_.png',
+                imageSrc: '/rps_online_game.png',
                 imageAnimation: false,
                 code: 'https://github.com/msenicic/rps-app-nextjs-firebase',
                 link: 'https://rps-dev.msenicic.vercel.app/',
@@ -74,17 +88,18 @@ export const DATA_PROJECTS = [
             },
             {
                 id: nanoid(),
-                imageSrc: '/food-recipes-dev.msenicic.vercel.app_.png',
+                imageSrc: '/food_recipes.png',
                 imageAnimation: true,
                 code: 'https://github.com/msenicic/food-recipes-app-nextjs-headlessCMS',
                 link: 'https://food-recipes-dev.msenicic.vercel.app/',
+                usableLink: false,
                 title: 'Food Recipes (Unusable)',
                 description: 'NextJs application with a combination of headless Wordpress where you can log in or register and then make new recipes or view other recipes. (Currently unusable because the host has shut down the platform)',
                 tags: ['NextJs','SCSS','Headless CMS','Rest API']
             },
             {
                 id: nanoid(),
-                imageSrc: '/react-advanced-form-dev.msenicic.vercel.app_.png',
+                imageSrc: '/advanced_form.png',
                 imageAnimation: false,
                 code: 'https://github.com/msenicic/react-advanced-form',
                 link: 'https://react-advanced-form-dev.msenicic.vercel.app/',
@@ -94,7 +109,7 @@ export const DATA_PROJECTS = [
             },
             {
                 id: nanoid(),
-                imageSrc: '/react-tenzies-dev.msenicic.vercel.app_.png',
+                imageSrc: '/tenzies_app.png',
                 imageAnimation: false,
                 code: 'https://github.com/msenicic/react-tenzies-app',
                 link: 'https://react-tenzies-dev.msenicic.vercel.app/',
@@ -104,7 +119,7 @@ export const DATA_PROJECTS = [
             },
             {
                 id: nanoid(),
-                imageSrc: '/react-quiz-dev.msenicic.vercel.app_.png',
+                imageSrc: '/quiz_app.png',
                 imageAnimation: false,
                 code: 'https://github.com/msenicic/react-quiz-app',
                 link: 'https://react-quiz-dev.msenicic.vercel.app/',
@@ -119,16 +134,25 @@ export const DATA_PROJECTS = [
         projects: [
             {
                 id: nanoid(),
-                imageSrc: '/craft-project.ddev.site.png',
+                imageSrc: '/positivus.jpg',
+                imageAnimation: true,
+                code: 'https://github.com/msenicic/positivus-wordpress-site',
+                title: 'Positivus',
+                description: 'Positivus site, which contains custom blocks combine with Acf fields and Timber, custom post type, newsletter and contact form...',
+                tags: ['Wordpress','SCSS','JavaScript','Timber']
+            },
+            {
+                id: nanoid(),
+                imageSrc: '/travel.png',
                 imageAnimation: true,
                 code: 'https://github.com/msenicic/travel-craft-site',
                 title: 'Travel',
-                description: 'Travel site, which contains Neo matrix fields, user management, swiper... U can log in or register and then comment something about site',
+                description: 'Travel site, which contains Neo matrix fields, user management, swiper, comment section...',
                 tags: ['CraftCms','SCSS','JavaScript','Docker & Ddev']
             },
             {
                 id: nanoid(),
-                imageSrc: '/osuwp-local.dev.msenicic.com_.png',
+                imageSrc: '/osu_clone.png',
                 imageAnimation: true,
                 code: 'https://github.com/msenicic/osu-clone-wordpress-site',
                 title: 'Osu clone',
@@ -137,7 +161,7 @@ export const DATA_PROJECTS = [
             },
             {
                 id: nanoid(),
-                imageSrc: '/prello_site-local.dev.msenicic.com_.png',
+                imageSrc: '/prello_clone.png',
                 imageAnimation: true,
                 code: 'https://github.com/msenicic/prello-craft-site',
                 title: 'Prello clone',
